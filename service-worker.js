@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/zjubca-bounty-frontend-d/precache-manifest.5b5971381438815b3ff62a1398ce5871.js"
+  "/zjubca-bounty-frontend-d/precache-manifest.c389e7b624d4099167166e7e0de4ab7b.js"
 );
 
 workbox.clientsClaim();

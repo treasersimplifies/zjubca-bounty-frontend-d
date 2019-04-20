@@ -1,6 +1,9 @@
 {
   "name": "react-bootstrap-demo1",
   "version": "0.1.0",
+  "homepage": "https://treasersimplifies.github.io/zjubca-bounty-frontend-d",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -27,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }

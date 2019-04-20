@@ -29,7 +29,7 @@ class RankList extends Component {
 
     refreshRankList(){
         // let eoscomm = new EosComm();
-        this.eoscomm.connectAndLogin().then(loginAccount=>{
+        this.eoscomm.connectAndLogin(false).then(loginAccount=>{
           // sessionStorage.setItem("userId",this.userNameToId(loginAccount.name));
           sessionStorage.setItem("userName",loginAccount.name);
           this.eoscomm.fetchData('zjubcauser11','zjubcauser11','user').then(rowsdata=>{

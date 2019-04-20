@@ -1,7 +1,7 @@
 {
   "name": "react-bootstrap-demo1",
   "version": "0.1.0",
-  "homepage": "https://treasersimplifies.github.io/zjubca-bounty-frontend-d",
+  "homepage": "https://treasersimplifies.github.io/zjubca-bounty-frontend-d/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",

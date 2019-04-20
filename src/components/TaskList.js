@@ -37,7 +37,7 @@ class TaskList extends Component {
   // 获取任务列表
   refreshTaskList(){
     // let eoscomm = new EosComm();
-    this.eoscomm.connectAndLogin().then(loginAccount=>{
+    this.eoscomm.connectAndLogin(false).then(loginAccount=>{
       // sessionStorage.setItem("userId",this.userNameToId(loginAccount.name));
       sessionStorage.setItem("userName",loginAccount.name);
 

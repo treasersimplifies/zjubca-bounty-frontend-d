@@ -2,13 +2,11 @@ import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 import TaskEditor from "./TaskEditor";
 import TaskView from "./TaskView";
-import ThemeSwitcher from "./ThemeSwitcher";
 import { Container, Row, Col, Form, Button, Image, Badge } from 'react-bootstrap';
 // import RequireList from "./RequireList";
 // import { get, put, post } from "../utils/request";
 // import url from "../utils/url";
 // import tasksJsonData  from "../testdata.json";
-import {pushAction} from "../service/EosCommFun"
 import EosComm from "../service/EosComm"
 // import "./css/Task.css";
 import loading from "../images/loading1.gif";
